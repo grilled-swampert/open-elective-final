@@ -1,0 +1,20 @@
+.add-content {
+    gap: 30px;
+  }
+  
+  .add-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .add-content {
+      flex-direction: column;
+      gap: 5%;
+    }
+  
+    .add-right {
+      margin-top: 5%;
+    }
+  }

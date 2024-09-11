@@ -1,0 +1,70 @@
+.semesterWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.semesterTabs {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fef6e4;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #888888;
+  }
+  
+  .semesterBtn {
+    background-color: #8bd3dd;
+    color: #001858;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+.semesterBtn:hover {
+    background-color: #f582ae;
+}
+
+.semesterBtn.active {
+    background-color: #001858;
+    color: white;
+}
+  
+.academicYear,
+.semesterType {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .semesterTabs {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .semesterWrapper {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .semesterBtn {
+        width: 100%;
+        text-align: left;
+    }
+
+    .academicYear,
+    .semesterType {
+        text-align: left;
+    }
+}

@@ -1,0 +1,8 @@
+.mainBody {
+    margin: 30px;
+    padding: 20px;
+    background-color: #f3d2c1;
+    box-shadow: 1px 1px 5px 1px #888888;
+    border-radius: 20px;
+    color: #172c66;
+  }

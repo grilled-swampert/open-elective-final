@@ -1,0 +1,73 @@
+.left-section{
+    background-color: #f3d2c1;
+    height: 67vh;
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    font-family: "Fira Sans", sans-serif;
+   }
+   .dropdown{
+    height: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding-left: 10px;
+  }
+  #certificate-deadline{
+    height: 50px;
+    width: 380px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  .date-selection{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .date-selection label{
+    width: fit-content;
+  }
+  .date{
+    margin-top: 2%;
+    height: 5vh;
+    width: fit-content;
+    font-size: 1rem;
+  }
+  #upload-btn{
+    height: 8vh;
+    width: 70%;
+    margin: 3% 15%;
+    border-radius: 16px;
+    padding-left: 10px;
+    background-color: #8bd3dd;
+    display: flex;
+    align-items: center;
+   }
+   #upload-btn input{
+    font-size: 150%;
+   }
+   #add-btn{
+    background-color: #8bd3dd;
+    height: 8vh;
+    width: 70%;
+    margin: 5% 15%;
+    font-size: 150%;
+    border-radius: 16px;
+    padding-left: 10px;
+    border: none;
+   }
+   

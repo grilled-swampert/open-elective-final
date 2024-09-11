@@ -1,0 +1,16 @@
+.main {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #fef6e4;
+}
+
+#side-nav {
+  position: fixed;
+  width: 1.5%;
+  margin-top: 1%;
+  left: 0;
+  padding: 15px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 2rem;
+}

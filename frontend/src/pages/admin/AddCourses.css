@@ -1,0 +1,32 @@
+.content{
+    display: flex;
+}
+.left-section{
+    background-color: #f3d2c1;
+    height: 67vh;
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    font-family: "Fira Sans", sans-serif;
+   }
+
+.right-section{
+    background-color: #f3d2c1;
+    height: 67vh;
+    width: 64%;
+    border-radius: 30px;
+    overflow-y: auto;
+    font-family: "Fira Sans", sans-serif;
+   }
+   table{
+    table-layout: fixed;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+   }
+  

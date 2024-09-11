@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+ 
+.left-panel {
+    height: 37rem;
+    background-color: #f3d2c1;
+    width: 100%;
+    max-width: 300px;
+    margin-top: auto;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+#pls-fucking-work {
+    table-layout: fixed;
+    width: 100%;
+    /* padding: 10px; */
+    overflow-x: auto;
+    height: fit-content;
+    border-collapse: collapse;
+}
+
+.right-panel{
+    height: 39.5rem;
+    width: 55%;
+    background-color: #f3d2c1;
+    border-radius: 16px;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}

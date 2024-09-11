@@ -1,0 +1,31 @@
+.add-left {
+    height: 80vh;
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Marcellus;
+    border-right: 10px solid #001858;
+    border-radius: 5px;
+  }
+  
+  .add-left p {
+    font-size: 3.5rem;
+    color: #001858;
+    font-family: Marcellus;
+  }
+  
+  .temp-btn {
+    background-color: #8bd3dd;
+    color: #094067;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 15vh;
+    font-size: 2rem;
+    border: none;
+    border-radius: 16px;
+  }

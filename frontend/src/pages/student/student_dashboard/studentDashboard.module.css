@@ -1,0 +1,27 @@
+.navbar {
+  height: 120px;
+  box-shadow: 1px 1px 5px 1px #888888;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.logoutBtn {
+  background-color: white;
+  color: black;
+  border: 5px solid #ed1c24;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 1px 1px 5px 1px #888888;
+  margin-right: 50px; 
+}
+
+.somaiyaLogoMain {
+  margin-left: 50px;
+  height: 80px;
+}

@@ -1,0 +1,550 @@
+<<<<<<< HEAD
+.navbar{
+    height: 120px;
+    box-shadow: 1px 1px 5px 1px #888888;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .logo{
+  height: 80px;
+  width:fit-content;
+  }
+  .trust{
+    position: fixed;
+    right: 0%;
+      margin-top: 20px;
+      margin-right: 2%;
+      height: 80px;
+      width:fit-content;
+     
+  }
+    
+    body {
+      background-image: url("photos-logos/kj\ background.jpeg");
+      background-size: 63%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family:'fira-sans-reg';
+      color: white;
+      text-align: center;
+      background-color: #f3d2c1;
+    }
+    
+    
+    .login-box {
+      background-color:#f3d2c1;
+      padding: 30px;
+      border-radius: 10px;
+      margin-left : 68%;
+      margin-top : 8%;
+      width: 23%;
+      height: 47vh;
+    }
+    .login-box p{
+      font-size: 1.5rem;
+      color: black;
+      height: auto;
+      text-align: left;
+      margin-bottom: 5px;
+    
+      
+    }
+    .login-box input{
+      height: 8vh;
+      width: 100%;
+      border-radius: 8px;
+      border-color: transparent;
+      margin-bottom: 10px;
+      font-size: 2rem;
+      border: 3px solid rgb(0, 0, 0);
+    }
+    .forget{
+      color: #123BC9;
+      font-size: 1.5rem;
+      text-align: left;
+    }
+    .forget:hover{
+      color: red;
+      cursor: pointer;
+    }
+    
+    #login-button-text {
+      background-color: #123BC9;
+      color: white;
+      padding: 14px 20px;
+      margin-top: 25px;
+      border: none;
+      cursor: pointer;
+      height: 7vh;
+      width: 50%;
+      border-radius: 20px;
+      font-family: 'fira-sans-med';
+      font-size: 30px;
+    }
+    
+    #login-button-text:hover {
+      opacity: 0.9;
+    }
+  
+    #or{
+      text-align: center;
+      margin-top: 10px;
+    }
+    .google-btn{
+      background-color: white; 
+      border: none; 
+      padding: 0;
+      height: 7vh;
+      width: 50%;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 25%;
+    }
+    .google-btn-img{
+      background-color: transparent;
+      height: 4vh;
+      object-fit: contain;
+      text-align: center;
+      width: fit-content;
+    }
+  
+    .google-btn-text{
+      vertical-align: middle; 
+      font-size: 24px;
+       color: #333;
+       font-family: 'fira-sans-med';
+       margin-right: 20%;
+    }
+   
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+   body{
+    height: fit-content;
+   }
+    .header {
+      height: 100px;
+      padding: 20px;
+    }
+   .logo {
+      width: 50%;
+      margin: 0 auto;
+    }
+   .trust {
+    width: 50%;
+      position: relative;
+      
+    }
+  
+  
+   .login-box {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 20px;
+      padding: 20px;
+    }
+   .login-box input {
+      height: 40px;
+      font-size: 18px;
+    }
+    #login-button-text {
+      width: 100%;
+      font-size: 24px;
+    }
+   .google-btn {
+      width: 100%;
+      margin-left: 0;
+    }
+   .google-btn-img {
+      height: 30px;
+    }
+   .google-btn-text {
+      font-size: 18px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    
+   
+  
+    
+    body {
+      position: fixed;
+      height: 100%;
+      background-image: url("photos-logos/kj\ background.jpeg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      font-family:'fira-sans-reg';
+      color: white;
+      text-align: center;
+    }
+    
+    .header {
+      height: 80px;
+      padding: 15px;
+    }
+   .logo {
+    height: 10vh;
+      width: 40%;
+      margin: 0 auto;
+    }
+   .trust {
+    height: 10vh;
+      width: 40%;
+      position: relative;
+      margin-top: 5px;
+      margin-right: 5px;
+    }
+  
+   .login-box {
+      width: 40%;
+      margin-left: 5%;
+      margin-top: 15px;
+      padding: 15px;
+    }
+   .login-box input {
+      height: 30px;
+      font-size: 16px;
+    }
+    #login-button-text {
+      width: 100%;
+      font-size: 20px;
+    }
+   .google-btn {
+      width: 100%;
+      margin-left: 0;
+    }
+   .google-btn-img {
+      height: 25px;
+    }
+   .google-btn-text {
+      font-size: 16px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 320px) {
+    
+   .header {
+      height: 60px;
+      padding: 10px;
+    }
+   .logo {
+      width: 30%;
+      margin: 0 auto;
+    }
+   .trust {
+      position: relative;
+      margin-top: 2px;
+      margin-right: 2px;
+    }
+  
+   
+   .login-box {
+      width: 95%;
+      margin-left: 2.5%;
+      margin-top: 10px;
+      padding: 10px;
+    }
+   .login-box input {
+      height: 25px;
+      font-size: 14px;
+    }
+    #login-button-text {
+      width: 100%;
+      font-size: 18px;
+    }
+   .google-btn {
+      width: 100%;
+      margin-left: 0;
+    }
+   .google-btn-img {
+      height: 20px;
+    }
+   .google-btn-text {
+      font-size: 14px;
+    }
+  }
+=======
+.navbar{
+    height: 120px;
+    box-shadow: 1px 1px 5px 1px #888888;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .logo{
+  height: 80px;
+  width:fit-content;
+  }
+  .trust{
+    position: fixed;
+    right: 0%;
+      margin-top: 20px;
+      margin-right: 2%;
+      height: 80px;
+      width:fit-content;
+     
+  }
+    
+    body {
+      background-image: url("photos-logos/kj\ background.jpeg");
+      background-size: 63%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family:'fira-sans-reg';
+      color: white;
+      text-align: center;
+      background-color: #f3d2c1;
+    }
+    
+    
+    .login-box {
+      background-color:#f3d2c1;
+      padding: 30px;
+      border-radius: 10px;
+      margin-left : 68%;
+      margin-top : 8%;
+      width: 23%;
+      height: 47vh;
+    }
+    .login-box p{
+      font-size: 1.5rem;
+      color: black;
+      height: auto;
+      text-align: left;
+      margin-bottom: 5px;
+    
+      
+    }
+    .login-box input{
+      height: 8vh;
+      width: 100%;
+      border-radius: 8px;
+      border-color: transparent;
+      margin-bottom: 10px;
+      font-size: 2rem;
+      border: 3px solid rgb(0, 0, 0);
+    }
+    .forget{
+      color: #123BC9;
+      font-size: 1.5rem;
+      text-align: left;
+    }
+    .forget:hover{
+      color: red;
+      cursor: pointer;
+    }
+    
+    #login-button-text {
+      background-color: #123BC9;
+      color: white;
+      padding: 14px 20px;
+      margin-top: 25px;
+      border: none;
+      cursor: pointer;
+      height: 7vh;
+      width: 50%;
+      border-radius: 20px;
+      font-family: 'fira-sans-med';
+      font-size: 30px;
+    }
+    
+    #login-button-text:hover {
+      opacity: 0.9;
+    }
+  
+    #or{
+      text-align: center;
+      margin-top: 10px;
+    }
+    .google-btn{
+      background-color: white; 
+      border: none; 
+      padding: 0;
+      height: 7vh;
+      width: 50%;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 25%;
+    }
+    .google-btn-img{
+      background-color: transparent;
+      height: 4vh;
+      object-fit: contain;
+      text-align: center;
+      width: fit-content;
+    }
+  
+    .google-btn-text{
+      vertical-align: middle; 
+      font-size: 24px;
+       color: #333;
+       font-family: 'fira-sans-med';
+       margin-right: 20%;
+    }
+   
+  
+  
+  @media only screen and (max-width: 768px) {
+  
+   body{
+    height: fit-content;
+   }
+    .header {
+      height: 100px;
+      padding: 20px;
+    }
+   .logo {
+      width: 50%;
+      margin: 0 auto;
+    }
+   .trust {
+    width: 50%;
+      position: relative;
+      
+    }
+  
+  
+   .login-box {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 20px;
+      padding: 20px;
+    }
+   .login-box input {
+      height: 40px;
+      font-size: 18px;
+    }
+    #login-button-text {
+      width: 100%;
+      font-size: 24px;
+    }
+   .google-btn {
+      width: 100%;
+      margin-left: 0;
+    }
+   .google-btn-img {
+      height: 30px;
+    }
+   .google-btn-text {
+      font-size: 18px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    
+   
+  
+    
+    body {
+      position: fixed;
+      height: 100%;
+      background-image: url("photos-logos/kj\ background.jpeg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      font-family:'fira-sans-reg';
+      color: white;
+      text-align: center;
+    }
+    
+    .header {
+      height: 80px;
+      padding: 15px;
+    }
+   .logo {
+    height: 10vh;
+      width: 40%;
+      margin: 0 auto;
+    }
+   .trust {
+    height: 10vh;
+      width: 40%;
+      position: relative;
+      margin-top: 5px;
+      margin-right: 5px;
+    }
+  
+   .login-box {
+      width: 40%;
+      margin-left: 5%;
+      margin-top: 15px;
+      padding: 15px;
+    }
+   .login-box input {
+      height: 30px;
+      font-size: 16px;
+    }
+    #login-button-text {
+      width: 100%;
+      font-size: 20px;
+    }
+   .google-btn {
+      width: 100%;
+      margin-left: 0;
+    }
+   .google-btn-img {
+      height: 25px;
+    }
+   .google-btn-text {
+      font-size: 16px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 320px) {
+    
+   .header {
+      height: 60px;
+      padding: 10px;
+    }
+   .logo {
+      width: 30%;
+      margin: 0 auto;
+    }
+   .trust {
+      position: relative;
+      margin-top: 2px;
+      margin-right: 2px;
+    }
+  
+   
+   .login-box {
+      width: 95%;
+      margin-left: 2.5%;
+      margin-top: 10px;
+      padding: 10px;
+    }
+   .login-box input {
+      height: 25px;
+      font-size: 14px;
+    }
+    #login-button-text {
+      width: 100%;
+      font-size: 18px;
+    }
+   .google-btn {
+      width: 100%;
+      margin-left: 0;
+    }
+   .google-btn-img {
+      height: 20px;
+    }
+   .google-btn-text {
+      font-size: 14px;
+    }
+  }
+>>>>>>> 3168cdbad0ae9c70fcf49e528777c2b24cf60888
+  

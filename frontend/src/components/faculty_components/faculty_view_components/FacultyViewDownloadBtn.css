@@ -1,0 +1,62 @@
+.download {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .downloadBtn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #f3d2c1;
+    border: 2px solid #001858;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .downloadBtn:hover {
+    background-color: #fef6e4;
+  }
+  
+  .caret {
+    margin-left: 5px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fef6e4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f3d2c1;
+  }
+  
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-menu.nested {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+  
+  .dropdown-submenu:hover .dropdown-menu.nested {
+    display: block;
+  }

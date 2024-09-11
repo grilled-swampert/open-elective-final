@@ -1,0 +1,28 @@
+#sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  margin-top: 1%;
+  left: 0;
+  background-color: #bc414e;
+  overflow-x: hidden;
+  color: black;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#sidebar button {
+  padding: 10px 15px;
+  text-align: left;
+  border: none;
+  background: none;
+  color: WHITE;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+#sidebar button:hover {
+  background-color: #575757;
+}

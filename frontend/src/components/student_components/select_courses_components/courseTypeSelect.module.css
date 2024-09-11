@@ -1,0 +1,48 @@
+.heading {
+    text-align: center;
+    margin-top: 30px;
+  }  
+  
+.coursesSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .courseName {
+    border: 5px solid #001858;
+    height: 839px;
+    width: 270px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .courseName:nth-child(1) {
+    background-color: #0056D2;
+  }
+  
+  .courseName:nth-child(2) {
+    background-color: #d58929;
+  }
+  
+  .courseName:nth-child(3) {
+    background-color: #ffffff;
+  }
+  
+  .courseraLogo, .nptelLogo, .somaiyaLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(270deg);
+    max-width: 200%;
+    max-height: 200%;
+    width: auto;
+    height: auto;
+  }
+  
+  .courseraContainer, .nptelContainer, .somaiyaContainer {
+    position: relative;
+    overflow: hidden;
+  }
